@@ -7,7 +7,7 @@ const TopContent = () => {
         <div className="topcontent__container">
             <h1>Nagarajan.M</h1>
             <p>A professional C,C++ and Python Developer</p>
-            <a href='https://drive.google.com/file/d/17XF2lxSi4OrOoN8rwVmGv_cFxb8HRsqt/view'>
+            <a href='https://drive.google.com/file/d/1c-8Cf31msAPUJyGnMmXx7tgUJZSRfOQM/view?usp=drive_link'>
                 <button className='topcontent__downloadbutton'>Download RESUME</button>
             </a>
             <Link to='projects'smooth={true} duration={500}>
