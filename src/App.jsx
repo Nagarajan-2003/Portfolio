@@ -6,7 +6,10 @@ import Project from './Components/Project/Project'
 import './App.css'
 import Experience from './Components/Experience/Experience'
 import Contact from './Components/Contact/Contact'
+<<<<<<< HEAD
 import Certificate from './Components/Certificate/Certificate'
+=======
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
 const App = () => {
   console.log("rendered app.jsx")
   return (
@@ -14,7 +17,10 @@ const App = () => {
       <Header/>
       <TopContainer/>
       <Skill/>
+<<<<<<< HEAD
       <Certificate/>
+=======
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
       <Project/>
       <Experience/>
       <Contact/>

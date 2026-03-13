@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-scroll'
 import './TopContent.css'
+<<<<<<< HEAD
 // Replace with the path to your red shirt image (image_4.png)
 import profilePic from '../../assets/portfolio.jpeg' 
 
@@ -31,6 +32,23 @@ const TopContent = () => {
         </div>
     </div>
 )
+=======
+const TopContent = () => {
+  return (
+    <div className='topcontent'>
+        <div className="topcontent__container">
+            <h1>Nagarajan.M</h1>
+            <p>A professional C,C++ and Python Developer</p>
+            <a href='https://drive.google.com/file/d/17XF2lxSi4OrOoN8rwVmGv_cFxb8HRsqt/view'>
+                <button className='topcontent__downloadbutton'>Download RESUME</button>
+            </a>
+            <Link to='projects'smooth={true} duration={500}>
+            <button className='topcontent__workbutton'>My Work</button>
+            </Link>
+        </div>
+    </div>
+  )
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
 }
 
 export default TopContent

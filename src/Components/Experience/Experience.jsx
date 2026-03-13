@@ -12,7 +12,10 @@ const Experience = () => {
             <Experiencebox number="8+" title="Skills" style={{backgroundColor:'#f64c08'}}/>
             <Experiencebox number="5+" title="Programming Languages" style={{textAlign:'center'}}/>
             <Experiencebox number="3+" title="Front-End Technologies "style={{textAlign:"center"}}/>
+<<<<<<< HEAD
             <Experiencebox number="1" title="Back-End Technologies "style={{textAlign:"center"}}/>
+=======
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
         </div>
     </Element>
   )

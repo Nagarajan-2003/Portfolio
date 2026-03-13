@@ -14,9 +14,12 @@ const Header = () => {
             <Link to='skills' smooth={true}duration={500}>
             <h4>Skills</h4>
             </Link>
+<<<<<<< HEAD
             <Link to='certificates' smooth={true}duration={500}>
             <h4>Certificates</h4>
             </Link>
+=======
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
             <Link to='projects' smooth={true}duration={500}>
             <h4>Projects</h4>
             </Link>

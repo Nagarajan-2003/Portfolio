@@ -25,7 +25,11 @@
     width: 100%;
     border-radius: 3px;
     object-fit: contain;
+<<<<<<< HEAD
     height:1000px ;
+=======
+    height:900px ;
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
 }
 .skillcontainer__skillset>h5{
     font-family: "Montserrat",sans-serif;

@@ -16,19 +16,31 @@ const Project = () => {
             img:bmi,
             title:"BMI CALCULATOR",
             Description:"Simple and accurate BMI calculator. Just enter your height and weight to get your BMI and find out if you're underweight, healthy, overweight, or obese.",
+<<<<<<< HEAD
             link:"https://nagarajan-2003.github.io/BMI-CALCULATOR/",
+=======
+            link:"https://github.com/Nagarajan-2003/BMI-CALCULATOR",
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
         },
         {
             img:counter,
             title:"COUNTER",
             Description:"A basic and functional counter app. Use it to keep a tally of anything you need. Add, subtract, or reset the count with simple button controls.",
+<<<<<<< HEAD
             link:"https://nagarajan-2003.github.io/COUNTER/",
+=======
+            link:"https://github.com/Nagarajan-2003/COUNTER",
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
         },
         {
             img:expense,
             title:"EXPENSE TRACKER",
             Description:"Track your finances with ease. This simple app helps you monitor your income and expenses, providing a clear overview of your balance. See a detailed history of your transactions and add new ones with just a few taps.",
+<<<<<<< HEAD
             link:"https://nagaraj2003.pythonanywhere.com/login/?next=/",
+=======
+            link:"https://github.com/Nagarajan-2003/Expense-Tracker",
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
         },
         {
             img:stopwatch,
@@ -40,19 +52,31 @@ const Project = () => {
             img:textspeech,
             title:"TEXT TO SPEECH CONVERTOR",
             Description:"Convert text into speech with this handy app. Simply type or paste your text, adjust the speech rate, and listen to it being read aloud.",
+<<<<<<< HEAD
             link:"https://Nagarajan-2003.github.io/TEXT-SPEECH-APP/",
+=======
+            link:"https://github.com/Nagarajan-2003/TEXT-SPEECH-APP",
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
         },
         {
             img:todo,
             title:"TO DO LIST",
             Description:"Organize your tasks and boost your productivity with this straightforward to-do list app. Add new tasks, and keep track of everything you need to get done.",
+<<<<<<< HEAD
             link:"https://full-stack-todo-guqy.onrender.com",
+=======
+            link:"https://github.com/Nagarajan-2003/TODO-LIST",
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
         },
         {
             img:chatbot,
             title:"STATIC AI CHATBOT",
             Description:"Interact with an intelligent chatbot. Ask your questions, and receive instant, helpful responses. This app is designed to provide quick and accurate information on a variety of topics, making it a great tool for learning and exploration.",
+<<<<<<< HEAD
             link:"https://nagarajan-2003.github.io/CHATBOT/",
+=======
+            link:"https://github.com/Nagarajan-2003/CHATBOT",
+>>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
         },
         {
             img:rps,
