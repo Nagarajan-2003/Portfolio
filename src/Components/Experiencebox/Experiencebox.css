@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Montserrat+Alternates:wght@300;600&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.experience-box{
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted white;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    overflow: hidden;
+}
+.experience-box>p{
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+}

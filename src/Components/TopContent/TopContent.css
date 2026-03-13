@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600&display=swap');
+
+.topcontent {
+    color: white;
+    width: 100%;
+    height: 100vh; /* Takes full viewport height */
+    background-color: #111; /* Dark background from images */
+    
+    /* This creates the side-by-side layout */
+    display: flex; 
+    flex-direction: row; /* Horizontal alignment */
+    align-items: center; /* Vertically centered in the container */
+    justify-content: center; /* Horizontally centered in the container */
+    gap: 80px; /* Space between the circular image and the text */
+    padding: 0 10%; /* General side padding */
+}
+.topcontent__text-group > h1 {
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+
+    /* The Gradient Effect */
+    background: linear-gradient(to right, #fdf5f2 20%, #f64c08 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+/* 1. Style the text group to align everything left */
+.topcontent__text-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Aligns all text inside to the left */
+    text-align: left; /* Ensures text flow is left-to-right */
+    max-width: 600px; /* Prevents text from becoming too wide */
+}
+
+/* 2. Styling the image with orange glow */
+.profile-img {
+    width: 350px;
+    height: 350px;
+    min-width: 350px; /* Prevents shrinking */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover;
+    border: 4px solid #f64c08; /* The orange border */
+    box-shadow: 0 0 30px rgba(246, 76, 8, 0.4); /* Optional glow effect */
+}
+
+/* 3. Style the Text Elements */
+.topcontent__text-group > h1 {
+    font-size: 60px;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+/* Styling the job title (Software Developer) */
+.topcontent__text-group > h3 {
+    color: #f64c08; /* Orange color */
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+}
+
+.topcontent__text-group > p {
+    letter-spacing: 0.5px;
+    line-height: 1.6; /* Better readability */
+    font-size: 16px;
+    color: #ccc; /* Slightly dimmer white for description */
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* 4. Button Container Layout */
+.topcontent__buttons {
+    display: flex;
+    flex-direction: row; /* Buttons side-by-side */
+    gap: 20px;
+    margin-top: 10px;
+}
+
+/* Styling for both buttons to normalize them */
+.topcontent__buttons button {
+    border-radius: 4px; /* Slightly smoother corners */
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+/* Specific styling for the orange 'Download' button */
+.topcontent__downloadbutton {
+    color: white;
+    background-color: #f64c08; /* Orange color from images */
+    padding: 12px 30px;
+    border: 2px solid #f64c08; /* Consistent border */
+}
+
+.topcontent__downloadbutton:hover {
+    color: #f64c08;
+    background-color: transparent;
+    border: 2px solid #f64c08;
+}
+
+/* Specific styling for the outlined 'My Work' button */
+.topcontent__workbutton {
+    color: white;
+    border: 2px solid white !important; /* White border */
+    background-color: transparent;
+    padding: 12px 45px;
+}
+
+.topcontent__workbutton:hover {
+    color: #111; /* Dark text on white hover */
+    background-color: white;
+}
