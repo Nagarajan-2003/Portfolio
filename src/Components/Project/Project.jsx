@@ -50,7 +50,7 @@ const Project = () => {
         },
         {
             img:job,
-            title:"JOB LINKS",
+            title:"JOB PORTAl",
             Description:"Find your next career opportunity with our curated list of job portals and company websites.",
             link:"https://job-eight-alpha.vercel.app/",
         },
