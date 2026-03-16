@@ -20,3 +20,19 @@
     margin-top: 50px;
     flex-wrap: wrap;
 }
+.projectcontainer__projects {
+    display: flex;
+    width: 90%; /* Increase width for mobile */
+    max-width: 1200px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the project cards */
+}
+
+/* Adjust individual card size for small screens */
+@media (max-width: 480px) {
+    .project, .project > img {
+        width: 100%; /* Card takes full width of screen */
+        height: auto;
+    }
+}

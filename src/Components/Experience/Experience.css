@@ -22,3 +22,11 @@
     justify-content: space-evenly;
     align-items: center;
 }
+@media (max-width: 768px) {
+    .experiencecontainer__info {
+        flex-direction: column; /* Stack boxes vertically */
+        height: auto;
+        padding: 20px 0;
+        gap: 20px;
+    }
+}

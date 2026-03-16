@@ -59,15 +59,12 @@ const Skill = () => {
                     <LinearProgress variant='determinate'value={50}/>
                 </div>
             </div>
-<<<<<<< HEAD
             <div className='skillcontainer__skillset'>
                 <h5>Django</h5>
                 <div className="skillcontainer__slider skillcontainer__slider8">
                     <LinearProgress variant='determinate'value={50}/>
                 </div>
             </div>
-=======
->>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
         </div>
     </Element>
   )

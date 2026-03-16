@@ -53,3 +53,17 @@
     border-radius: 2px;
     cursor: pointer;
 }
+@media (max-width: 850px) {
+    .header {
+        flex-direction: column;
+    }
+    .header__right {
+        flex-wrap: wrap; /* Allow links to go to next line */
+        gap: 10px;
+        padding-bottom: 10px;
+    }
+    .header__right > a > h4 {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+}

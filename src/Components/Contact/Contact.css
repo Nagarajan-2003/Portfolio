@@ -32,3 +32,13 @@
 .contact_icons>a>button{
     color: white !important;
 }
+@media (max-width: 650px) {
+    .contact_container {
+        width: 90%; /* Fit to screen width */
+        height: auto;
+        padding: 20px;
+    }
+    .contact_container > p {
+        font-size: 16px; /* Smaller text */
+    }
+}

@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300;600&display=swap');
-<<<<<<< HEAD
 
 .topcontent {
     color: white;
@@ -116,7 +115,7 @@
 .topcontent__workbutton:hover {
     color: #111; /* Dark text on white hover */
     background-color: white;
-=======
+}
 .topcontent{
     color: white;
     position: relative;
@@ -174,5 +173,33 @@
     color: black;
     background-color: white;
     font-weight: 600;
->>>>>>> be0bb5a94a0239a476e6ad77ce0f586333c0846f
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .topcontent {
+        flex-direction: column; /* Stack image on top of text */
+        padding: 100px 20px;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .topcontent__text-group {
+        align-items: center; /* Center text and buttons */
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 250px; /* Smaller image for mobile */
+        height: 250px;
+        min-width: 250px;
+    }
+
+    .topcontent__text-group > h1 {
+        font-size: 40px; /* Scale down heading */
+    }
+
+    .topcontent__buttons {
+        flex-direction: column; /* Stack buttons */
+        width: 100%;
+    }
 }
