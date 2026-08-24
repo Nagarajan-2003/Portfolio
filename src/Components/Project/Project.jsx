@@ -9,7 +9,7 @@ import rps from './../../assets/rps.png';
 import stopwatch from './../../assets/stopwatch.png';
 import textspeech from './../../assets/textspeech.png';
 import todo from './../../assets/todo.png';
-import job from './../../assets/joblink.png';
+import aero from './../../assets/aerobook.png';
 const Project = () => {
     const client_projects=[
         {
@@ -49,10 +49,10 @@ const Project = () => {
             link:"https://Nagarajan-2003.github.io/TODO-LIST/",
         },
         {
-            img:job,
-            title:"JOB PORTAl",
-            Description:"Find your next career opportunity with our curated list of job portals and company websites.",
-            link:"https://job-eight-alpha.vercel.app/",
+            img:aerobook,
+            title:"AeroBook",
+            Description:"Book your tickets now .",
+            link:"https://flight-9s9u.onrender.com",
         },
         {
             img:rps,
