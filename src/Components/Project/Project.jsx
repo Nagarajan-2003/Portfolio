@@ -28,7 +28,7 @@ const Project = () => {
             img:expense,
             title:"EXPENSE TRACKER",
             Description:"Track your finances with ease. This simple app helps you monitor your income and expenses, providing a clear overview of your balance. See a detailed history of your transactions and add new ones with just a few taps.",
-            link:"https://nagaraj2003.pythonanywhere.com/login/?next=/",
+            link:"https://nagarajan-2003.github.io/Expense-Tracker/",
         },
         {
             img:stopwatch,
