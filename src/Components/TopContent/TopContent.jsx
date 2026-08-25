@@ -21,7 +21,7 @@ const TopContent = () => {
             </p>
             
             <div className="topcontent__buttons">
-                <a href="https://drive.google.com/uc?export=download&id=1cQ2u_e0QmReh3xdt22vRYeOgllKvuKJJ" download="Nagarajan_M_Resume.pdf">
+                <a href="https://drive.google.com/uc?export=download&id=11azoPKawIqjOUkRb5cTLlEgKJX7qTekQ" download="Nagarajan_M_Resume.pdf">
                     <button className='topcontent__downloadbutton'>Download RESUME</button>
                 </a>
                 <Link to='projects' smooth={true} duration={500}>
