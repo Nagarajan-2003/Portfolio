@@ -1,24 +1,22 @@
-import React from 'react'
-import Header from '../src/Components/Header/Header'
+import Header from './Components/Header/Header'
 import TopContainer from './Components/TopContainer/TopContainer'
 import Skill from './Components/Skill/Skill'
+import Certificate from './Components/Certificate/Certificate'
 import Project from './Components/Project/Project'
-import './App.css'
 import Experience from './Components/Experience/Experience'
 import Contact from './Components/Contact/Contact'
+import './App.css'
 
-import Certificate from './Components/Certificate/Certificate'
 const App = () => {
-  console.log("rendered app.jsx")
   return (
     <div>
-      <Header/>
-      <TopContainer/>
-      <Skill/>
-      <Certificate/>
-      <Project/>
-      <Experience/>
-      <Contact/>
+      <Header />
+      <TopContainer />
+      <Skill />
+      <Certificate />
+      <Project />
+      <Experience />
+      <Contact />
     </div>
   )
 }
