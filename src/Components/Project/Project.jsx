@@ -10,6 +10,7 @@ import stopwatch from './../../assets/stopwatch.png';
 import textspeech from './../../assets/textspeech.png';
 import todo from './../../assets/todo.png';
 import aerobook from './../../assets/aerobook.png';
+import chatbot from './../../assets/chatbot.png';
 const Project = () => {
     const client_projects=[
         {
@@ -23,6 +24,13 @@ const Project = () => {
             title:"COUNTER",
             Description:"A basic and functional counter app. Use it to keep a tally of anything you need. Add, subtract, or reset the count with simple button controls.",
             link:"https://nagarajan-2003.github.io/COUNTER/",
+        },
+        
+        {
+            img:chatbot,
+            title:"CHATBOT",
+            Description:"A responsive conversational AI interface built with React and Vite, powered by the Google Gemini API. Features real-time responses, dynamic model fallback mechanisms to prevent service downtime, interactive query suggestions, and smooth Lottie vector animations.",
+            link:"https://chatbot-latest-fixed.vercel.app/",
         },
         {
             img:expense,
@@ -51,7 +59,7 @@ const Project = () => {
         {
             img:aerobook,
             title:"AeroBook",
-            Description:"Book your tickets now .",
+            Description:"A full-stack web application designed to simplify flight discovery, reservation, and itinerary management in real time. Built with a unified architecture, AeroBook pairs a responsive React frontend with a high-performance FastAPI backend to deliver instant seat availability tracking, seamless booking workflows, and automated inventory restoration upon ticket cancellation.",
             link:"https://flight-9s9u.onrender.com",
         },
         {
