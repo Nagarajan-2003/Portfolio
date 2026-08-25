@@ -9,7 +9,7 @@ import rps from './../../assets/rps.png';
 import stopwatch from './../../assets/stopwatch.png';
 import textspeech from './../../assets/textspeech.png';
 import todo from './../../assets/todo.png';
-import aero from './../../assets/aerobook.png';
+import aerobook from './../../assets/aerobook.png';
 const Project = () => {
     const client_projects=[
         {
